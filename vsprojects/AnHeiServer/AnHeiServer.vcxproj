@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CB97513D-0A49-42F4-B330-C28122C0C2E2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AnHeiServer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\AnHeiServer\base\baseapp.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\base\entity_base.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\base\lua_base.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\base\main.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\base\world_base.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\cell\aoi.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\cell\cellapp.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\cell\entity_cell.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\cell\lua_cell.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\cell\main.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\cell\space.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\cell\world_cell.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\balance.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\base64.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\bitcryto.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\cfg_reader.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\cjson.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\debug.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\defparser.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\entity.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\entity_mgr.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\epoll_server.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\exception.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\json_helper.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\logger.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\lua_bitset.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\lua_mogo.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\mailbox.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\md5.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\memory_pool.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\mutex.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\net_util.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\path_founder.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\pluto.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\rpc_mogo.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\server_test.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\stopword.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\timer.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\timer_action.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\type_mogo.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\util.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\win_adaptor.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\world.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\xmsg.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\common\xsem.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\crossclient\crossclient.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\crossclient\main.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\crossclient\world_crossclient.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\crossserver\crossserver.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\crossserver\main.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\crossserver\world_crossserver.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\cwmd\cwmd.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\cwmd\main.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\cwmd\world_cwmd.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\dbmgr\dbmgr.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\dbmgr\dboper.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\dbmgr\db_task.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\dbmgr\main.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\dbmgr\myredis.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\dbmgr\world_dbmgr.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\api_base.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\api_data_center.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\api_plat.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\cgicfg.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\charge_appstore.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\if4399.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\ifbase.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\iffactory.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login360.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login4399.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login91.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_anzhi.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_base.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_dangle.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_duokoo.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_fcgi.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_pps.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_pptv.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_uc.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_xiaomi.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_360_verify.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_card.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_charge.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_data_center.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_gift.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_login.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_plat_api.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\api.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\dboper.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\db_task.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\http.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\main.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\other.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\threadpool.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\world_other.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\loginapp\loginapp.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\loginapp\main.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\loginapp\world_login.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\syncdb\main.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\timerd\main.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\timerd\timerd.cpp" />
+    <ClCompile Include="..\..\src\AnHeiServer\timerd\world_timerd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\AnHeiServer\base\baseapp.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\base\entity_base.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\base\lua_base.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\base\world_base.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\cell\aoi.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\cell\cellapp.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\cell\entity_cell.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\cell\lua_cell.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\cell\space.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\cell\world_cell.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\balance.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\base64.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\bitcryto.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\cfg_reader.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\cjson.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\debug.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\defparser.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\delegate.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\entity.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\entity_mgr.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\epoll_server.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\event.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\exception.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\global_config.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\json_helper.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\logger.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\lua_bitset.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\lua_mogo.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\lua_mogo_impl.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\mailbox.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\md5.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\memory_pool.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\mutex.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\my_stl.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\net_util.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\path_founder.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\pluto.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\rpc_mogo.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\stopword.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\timer.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\timer_action.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\type_mogo.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\util.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\win_adaptor.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\world.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\world_select.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\xmsg.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\common\xsem.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\crossclient\crossclient.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\crossclient\world_crossclient.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\crossserver\crossserver.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\crossserver\world_crossserver.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\cwmd\cwmd.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\cwmd\world_cwmd.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\dbmgr\dbmgr.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\dbmgr\dboper.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\dbmgr\db_task.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\dbmgr\myredis.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\dbmgr\world_dbmgr.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\api_base.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\api_data_center.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\api_plat.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\cgicfg.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\charge_appstore.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\fcgi_def.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\if4399.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\ifbase.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\iffactory.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login360.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login4399.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login91.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_anzhi.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_base.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_dangle.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_duokoo.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_pps.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_pptv.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_uc.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_xiaomi.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\URLDecode.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\logapp\dboper.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\logapp\db_task.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\logapp\other.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\logapp\other_def.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\logapp\threadpool.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\logapp\world_other.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\loginapp\loginapp.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\loginapp\world_login.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\timerd\timerd.h" />
+    <ClInclude Include="..\..\src\AnHeiServer\timerd\world_timerd.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

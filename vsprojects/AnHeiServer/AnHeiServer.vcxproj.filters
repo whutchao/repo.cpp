@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="cell">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{bc777167-05f7-4087-8b34-6db36b1331e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cwmd">
+      <UniqueIdentifier>{f0b507da-a54d-4922-9718-49e32a354e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dbmgr">
+      <UniqueIdentifier>{ddb859f9-c00f-42e9-a687-b10b0d1157c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="fcgi">
+      <UniqueIdentifier>{17ab87e1-b6db-49c3-bdef-d17775c98325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logapp">
+      <UniqueIdentifier>{e1cd0168-14ae-44ce-a5ec-e4a76dbe58f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loginapp">
+      <UniqueIdentifier>{1ad79153-4035-4ad6-a2e3-3282c1f3c5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="syncdb">
+      <UniqueIdentifier>{004237df-2150-467f-acb5-572f87c31350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timerd">
+      <UniqueIdentifier>{54970b03-6ee6-4c9a-9aa1-cb8c0c7fe5e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crossclient">
+      <UniqueIdentifier>{a29626d3-1da6-41b2-bcf7-8cb0b746984f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crosserver">
+      <UniqueIdentifier>{34d17387-457c-4a91-b048-6ce51e49b8d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\AnHeiServer\base\baseapp.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\base\entity_base.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\base\lua_base.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\base\main.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\base\world_base.cpp">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\balance.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\base64.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\bitcryto.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\cfg_reader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\cjson.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\debug.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\defparser.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\entity.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\entity_mgr.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\epoll_server.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\exception.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\json_helper.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\logger.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\lua_bitset.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\lua_mogo.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\mailbox.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\md5.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\memory_pool.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\mutex.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\net_util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\path_founder.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\pluto.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\rpc_mogo.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\server_test.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\stopword.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\timer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\timer_action.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\type_mogo.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\util.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\win_adaptor.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\world.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\xmsg.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\common\xsem.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\cell\aoi.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\cell\cellapp.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\cell\entity_cell.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\cell\lua_cell.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\cell\main.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\cell\space.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\cell\world_cell.cpp">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\cwmd\cwmd.cpp">
+      <Filter>cwmd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\cwmd\main.cpp">
+      <Filter>cwmd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\cwmd\world_cwmd.cpp">
+      <Filter>cwmd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\dbmgr\db_task.cpp">
+      <Filter>dbmgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\dbmgr\dbmgr.cpp">
+      <Filter>dbmgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\dbmgr\dboper.cpp">
+      <Filter>dbmgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\dbmgr\main.cpp">
+      <Filter>dbmgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\dbmgr\myredis.cpp">
+      <Filter>dbmgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\dbmgr\world_dbmgr.cpp">
+      <Filter>dbmgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\api_base.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\api_data_center.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\api_plat.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\cgicfg.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\charge_appstore.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\if4399.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\ifbase.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\iffactory.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_anzhi.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_base.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_dangle.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_duokoo.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_fcgi.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_pps.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_pptv.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_uc.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login_xiaomi.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login91.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login360.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\login4399.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_360_verify.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_card.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_charge.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_data_center.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_gift.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_login.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\fcgi\main_plat_api.cpp">
+      <Filter>fcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\api.cpp">
+      <Filter>logapp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\db_task.cpp">
+      <Filter>logapp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\dboper.cpp">
+      <Filter>logapp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\http.cpp">
+      <Filter>logapp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\main.cpp">
+      <Filter>logapp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\other.cpp">
+      <Filter>logapp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\threadpool.cpp">
+      <Filter>logapp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\logapp\world_other.cpp">
+      <Filter>logapp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\loginapp\loginapp.cpp">
+      <Filter>loginapp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\loginapp\main.cpp">
+      <Filter>loginapp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\loginapp\world_login.cpp">
+      <Filter>loginapp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\crossclient\crossclient.cpp">
+      <Filter>crossclient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\crossclient\main.cpp">
+      <Filter>crossclient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\crossclient\world_crossclient.cpp">
+      <Filter>crossclient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\crossserver\crossserver.cpp">
+      <Filter>crosserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\crossserver\main.cpp">
+      <Filter>crosserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\crossserver\world_crossserver.cpp">
+      <Filter>crosserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\timerd\main.cpp">
+      <Filter>timerd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\timerd\timerd.cpp">
+      <Filter>timerd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\timerd\world_timerd.cpp">
+      <Filter>timerd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AnHeiServer\syncdb\main.cpp">
+      <Filter>syncdb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\AnHeiServer\base\baseapp.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\base\entity_base.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\base\lua_base.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\base\world_base.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\balance.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\base64.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\bitcryto.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\cfg_reader.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\cjson.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\debug.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\defparser.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\delegate.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\entity.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\entity_mgr.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\epoll_server.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\event.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\exception.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\global_config.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\json_helper.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\logger.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\lua_bitset.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\lua_mogo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\lua_mogo_impl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\mailbox.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\md5.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\memory_pool.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\mutex.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\my_stl.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\net_util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\path_founder.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\pluto.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\rpc_mogo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\stopword.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\timer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\timer_action.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\type_mogo.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\util.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\win_adaptor.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\world.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\world_select.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\xmsg.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\common\xsem.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\cell\aoi.h">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\cell\cellapp.h">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\cell\entity_cell.h">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\cell\lua_cell.h">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\cell\space.h">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\cell\world_cell.h">
+      <Filter>cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\cwmd\cwmd.h">
+      <Filter>cwmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\cwmd\world_cwmd.h">
+      <Filter>cwmd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\dbmgr\db_task.h">
+      <Filter>dbmgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\dbmgr\dbmgr.h">
+      <Filter>dbmgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\dbmgr\dboper.h">
+      <Filter>dbmgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\dbmgr\myredis.h">
+      <Filter>dbmgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\dbmgr\world_dbmgr.h">
+      <Filter>dbmgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\api_base.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\api_data_center.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\api_plat.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\cgicfg.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\charge_appstore.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\fcgi_def.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\if4399.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\ifbase.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\iffactory.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_anzhi.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_base.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_dangle.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_duokoo.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_pps.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_pptv.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_uc.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login_xiaomi.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login91.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login360.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\login4399.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\fcgi\URLDecode.h">
+      <Filter>fcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\logapp\db_task.h">
+      <Filter>logapp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\logapp\dboper.h">
+      <Filter>logapp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\logapp\other.h">
+      <Filter>logapp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\logapp\other_def.h">
+      <Filter>logapp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\logapp\threadpool.h">
+      <Filter>logapp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\logapp\world_other.h">
+      <Filter>logapp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\loginapp\loginapp.h">
+      <Filter>loginapp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\loginapp\world_login.h">
+      <Filter>loginapp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\crossclient\crossclient.h">
+      <Filter>crossclient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\crossclient\world_crossclient.h">
+      <Filter>crossclient</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\crossserver\crossserver.h">
+      <Filter>crosserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\crossserver\world_crossserver.h">
+      <Filter>crosserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\timerd\timerd.h">
+      <Filter>timerd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AnHeiServer\timerd\world_timerd.h">
+      <Filter>timerd</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

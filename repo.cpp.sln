@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glog", "vsprojects\glog\glo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JniDemo", "vsprojects\JniDemo\JniDemo.vcxproj", "{7EC422C9-1423-4217-8A38-02BDA536CA72}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnHeiServer", "vsprojects\AnHeiServer\AnHeiServer.vcxproj", "{CB97513D-0A49-42F4-B330-C28122C0C2E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,10 @@ Global
 		{7EC422C9-1423-4217-8A38-02BDA536CA72}.Debug|Win32.Build.0 = Debug|Win32
 		{7EC422C9-1423-4217-8A38-02BDA536CA72}.Release|Win32.ActiveCfg = Release|Win32
 		{7EC422C9-1423-4217-8A38-02BDA536CA72}.Release|Win32.Build.0 = Release|Win32
+		{CB97513D-0A49-42F4-B330-C28122C0C2E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB97513D-0A49-42F4-B330-C28122C0C2E2}.Debug|Win32.Build.0 = Debug|Win32
+		{CB97513D-0A49-42F4-B330-C28122C0C2E2}.Release|Win32.ActiveCfg = Release|Win32
+		{CB97513D-0A49-42F4-B330-C28122C0C2E2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
